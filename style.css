@@ -1,0 +1,425 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #ccc;
+ }
+
+ /* ------------------------------------------------------ card 1 ------------------------------------------- */
+.card1{
+ width: 320px;
+ border: none;
+ border-radius: 10px;
+ margin: 80px auto;
+ font-family: sans-serif;
+ background-color: white;
+ padding: 20px ;
+}
+
+.atm_img{
+    width: 20%;
+    padding-top: 20px;
+    padding-left: 130px;
+    margin-bottom: 0;
+}
+
+.card_heading{
+    padding-left: 80px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.card_desc{
+    text-align: center; 
+    margin-top: 10px;
+    margin-bottom: 40px; 
+    color: grey;
+}
+
+.card_number {
+    padding-left: 40px; /* Adjust the padding to make room for the icon */
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: url('credit-card-regular.svg') no-repeat left center; /* Adjust the path to your credit card icon */
+    background-size: 20px 20px; /* Adjust the background size as needed */
+    background-position: 10px;
+    font-size: 16px; /* Adjust the font size as needed */
+    padding-top: 10px; /* Adjust the top padding to vertically center the text */
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    margin-left: 10px;
+}
+
+.card_input {
+    position: relative;
+    width: 300px; /* Adjust the width as needed */
+}
+
+.free_trail{
+    width: 95%;
+    margin-left: 7.5px;
+    margin-top: 10px;
+    padding: 10px 10px;
+    background-color: blueviolet;
+    border-radius: 4px;
+    border: none;
+    font-size: 15px;
+}
+
+.secure_card{
+    margin-left: 80px;
+}
+
+
+a {
+    color: #0077cc; /* Set text color */
+    text-decoration: none; /* Remove underline by default */
+    font-weight: bold; /* Set font weight */
+}
+
+a:hover {
+    text-decoration: underline; /* Add underline on hover */
+    color: blue; /* Set color on hover */
+}
+
+.my_cards{
+    margin-top: 50px;
+    margin-left: 200px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+/*--------------------------------------------------------- card 2 -----------------------------------------*/
+.card2{
+    width: 320px;
+    border: none;
+    border-radius: 10px;
+    margin: 80px auto;
+    font-family: sans-serif;
+    background-color: white;
+    padding: 20px ;
+    
+}
+
+.man_img{
+    width: 50%;
+    margin-left: 80px;
+}
+
+.mail_heading{
+    text-align: center;
+}
+
+.code_msg{
+    text-align: center;
+    color: grey;
+}
+
+.input{
+    width: 100%;
+    border-color: 1px solid #ccc;
+    height: 40px;
+    border: 1px solid #ccc;  
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+
+.con_btn{
+    width: 100%;
+    background-color: blueviolet;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+    border: none;
+}
+
+/*--------------------------------------------------------- card 3 ------------------------------------------*/
+.card3{
+    width: 320px;
+    border: none;
+    border-radius: 10px;
+    margin: 80px auto;
+    font-family: sans-serif;
+    background-color: white;
+    padding: 20px ;
+}
+
+.handwave{
+    width: 20%;
+    display: block; /* Make the image a block-level element */
+    margin: 0 auto;
+}
+
+.greet{
+    text-align: center;
+    color: grey;
+}
+
+
+.work_btn{
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: left;
+    border: none;
+    background: url('briefcase-solid.svg') no-repeat left;
+    border-radius: 4px;
+    background-position: 10px;
+    background-size: 20px 20px;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.work_btn:hover{
+    background-color: lightgrey;
+}
+
+.personl_btn{
+    width: 100%;
+    text-align: left;
+    background: url('house-solid.svg') no-repeat left;
+    background-size: 20px 20px;
+    background-position: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 40px;
+    border: none;  
+    border-radius: 4px;
+}
+
+
+.personl_btn:hover{
+    background-color: lightgrey;
+}
+
+.arrow{
+    display: flex;
+    align-items: center;
+}
+
+.arr_{
+    width: 20px; /* Set the width of the arrow image */
+    height: 20px;
+    margin-left: 220px;
+}
+
+.arr_2{
+    width: 20px; /* Set the width of the arrow image */
+    height: 20px;
+    margin-left: 200px;
+}
+
+
+/*------------------------------------------------------ card 4 ---------------------------------------------*/
+.card4{
+    width: 320px;
+    border: none;
+    border-radius: 10px;
+    margin: 80px auto;
+    font-family: sans-serif;
+    background-color: white;
+    padding: 20px ;
+}
+
+.phoneimg{
+    width: 20%;
+    display: block; /* Make the image a block-level element */
+    margin: 0 auto;
+}
+
+.Phone_msg{
+    text-align: center;
+    color: grey;
+    font-family: sans-serif;
+}
+
+.phone_btn{
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: left;
+    border: none;
+    background: url('gift-solid.svg') no-repeat left;
+    border-radius: 4px;
+    background-position: 10px;
+    background-size: 20px 20px;
+    padding-left: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.phone_btn:hover{
+    background-color: lightgrey;
+}
+
+.port_number{
+    width: 100%;
+    text-align: left;
+    background: url('port\ arrow.png') no-repeat left;
+    background-size: 20px 20px;
+    background-position: 10px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 40px;
+    border: none;  
+    border-radius: 4px;
+}
+
+
+.port_number:hover{
+    background-color: lightgrey;
+}
+
+.phone_arrow_btn{
+    position: relative;
+}
+
+.arrow_right{
+    position: absolute;
+    width: 20px; /* Set the width of the arrow image */
+    height: 20px;
+    margin-left: 220px;
+    bottom: 20px;
+    right: 10px;
+}
+
+.phone_process{
+    font-family: sans-serif;
+    color: grey;
+}
+
+/* ------------------------------------------------- card5 ----------------------------------------- */
+
+.card5{
+    width: 320px;
+    border: none;
+    border-radius: 10px;
+    margin: 80px auto;
+    font-family: sans-serif;
+    background-color: white;
+    padding: 20px ;
+}
+
+.company{
+    text-align: center;   
+}
+
+.about_company{
+    text-align: center;
+    color: grey;
+}
+
+.building_img{
+    font-size: 100px;
+    margin-left: 90px;
+    color: #CCCCCC;
+}
+
+.companyname_lable{
+    color: blueviolet;
+}
+
+.input_card5{
+    width: 100%;
+    height: 40px;
+    border: 2px solid blueviolet;  
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.industry{
+    position: relative;
+}
+
+.industry_name{
+    background: url('creative-crop.png') no-repeat;
+    background-size: 20px 20px;
+    background-position: 5px 8px;
+    width: 92%;
+    border-color: 1px solid #ccc;
+    height: 20px;
+    border: 1px solid #ccc;  
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.select_industry{
+    position: absolute;
+    right: 0;
+    top: 15px;
+}
+
+.role{
+    position: relative;
+}
+
+.role_name{
+    background: url('owner-crop.png') no-repeat;
+    background-size: 20px 20px;
+    background-position: 5px 8px;
+    width: 92%;
+    border-color: 1px solid #ccc;
+    height: 20px;
+    border: 1px solid #ccc;  
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.select_role{
+    position: absolute;
+    right: 0;
+    top: 15px;
+}
+
+.size{
+    position: relative;
+}
+
+.team_size{
+    width: 98%;
+    border-color: 1px solid #ccc;
+    height: 20px;
+    border: 1px solid #ccc;  
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.select_size{
+    position: absolute;
+    right: 0;
+    top: 15px;
+}
+
+
+.industry_lable{
+    color: grey;
+}
+
+.role_lable{
+    color: grey;
+}
+
+.size_lable{
+    color: grey;
+}
