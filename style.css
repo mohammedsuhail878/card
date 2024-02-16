@@ -423,3 +423,45 @@ a:hover {
 .size_lable{
     color: grey;
 }
+
+
+/* ----------------------------------------------- media queri--------------------------- */
+
+.my_cards {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .cd1, .cd2, .cd3, .cd4, .cd5 {
+        text-align: center;
+        font-size: 16px; /* Adjust font size for better readability on smaller screens */
+    }
+}
+
+/* @media(min-width: 300px){
+    .cd1{
+        text-align: center;
+        font-size: 8px;
+    }
+    .cd2{
+        text-align: center;
+        font-size: 25px;
+    }
+    .cd3{
+        text-align: center;
+        font-size: 25px;
+    }
+    .cd4{
+        text-align: center;
+        font-size: 25px;
+    }
+    .cd{
+        text-align: center;
+        font-size: 25px;
+    }
+} */
